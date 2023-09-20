@@ -216,6 +216,7 @@ for(int i = 0; i < 16; i++){
     hash = hash ^ buffer[(i + 7) % 16]; // looking ahead 7 bytes and XORing
 }
 ```
+```
 This outputs 1000 0010 for test
 and a totally different output for uest(with just a single bit change) 1110110
 
