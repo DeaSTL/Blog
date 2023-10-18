@@ -1,7 +1,7 @@
 ## How I made my own hashing algorithm
 ### and how you can too
 
-#### Disclaimer: I'm not an expert and it's almost never a good idea to roll your own encryption of hash algorithm
+#### Disclaimer: I'm not an expert and it's almost never a good idea to roll your own encryption.
 
 ## Introduction
 The purpose of making this article is to demystify the basics of hasing algorithm so that you can write better code, by knowing what's going on under the hood of the code you use every day you can better understand where you can seek to improve.
@@ -221,7 +221,12 @@ This outputs 1000 0010 for test
 and a totally different output for uest(with just a single bit change) 1110110
 
 ```
-You can immediately see a drastic change in the output
+You can immediately see a drastic change in the output. You may be starting to see how this can be expanded to something like sha256, similar concepts but their constants are generated externally to ensure the maximum amount of entropy. Here's a links to a great resource for example code for these types of modern hashing algorithms.
+
+(crypto algorithms)[https://github.com/B-Con/crypto-algorithms/tree/master]
+
+
+Thanks for reading my blog, if you have any questions, feel free to post an issue.
 
 
 
